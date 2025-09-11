@@ -1,0 +1,21 @@
+p{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px; 
+    text-decoration: dashed;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    color: aqua;
+
+}
