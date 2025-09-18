@@ -17,7 +17,64 @@ header {
 
 
 .aviao {
-    background-image: url(imgs/SITES/aviao.png);
+    background-image: url(imgs/avião.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     height: 750px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aviao h2 {
+    color:white;
+    font-size: 90px;
+    width: 800px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.pacote img{
+  width: 499px;
+  height: 600px;  
+  border-radius:20xp;
+}
+
+.pacote{
+    border: 3px solid black;
+    border-radius: 20xp;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.pacote p{
+    font-size:32xp;
+}
+
+.pacote span{
+    font-size: 20xp;
+}
+
+.titulo{
+    font-size: 90px;
+    color:#1d0f6e;
+    text-align: center;
+    margin: 60px 0 ;
+    
+}
+footer {
+    background-color: #1D0F6E; 
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 300px;
+   font-size: 40px;
 }
