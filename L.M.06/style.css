@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive;
+}
+
+body {
+  background-color: #fff7e6;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+
+header {
+  background-color: #ffd6e0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #ff6392;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.4s;
+}
+
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: #ff6392;
+  transition: width 0.4s;
+}
+
+nav a:hover {
+  color: #ff6392;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+
+.botao-colorido {
+  background-color: #ffd6e0;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.botao-colorido:hover {
+  background-color: #ffb3c6;
+}
+
+
+.botao-crescendo {
+  background-color: #a0e7e5;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.botao-crescendo:hover {
+  transform: scale(1.2);
+}
+
+
+.botao-atraso {
+  background-color: #b4f8c8;
+  color: #333;
+  border: 2px solid #b4f8c8;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.5s 0.5s;
+}
+
+.botao-atraso:hover {
+  background-color: #79d1b2;
+  color: white;
+  border-color: #79d1b2;
+}
+
+
+.produto {
+  background-color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.4s;
+}
+
+.produto:hover {
+  background-color: #ffe6f0;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+
+.textos p {
+  margin: 10px 0;
+  font-size: 18px;
+  transition: all 0.4s;
+}
+
+.t1:hover {
+  color: #ff6392;
+  font-size: 22px;
+}
+
+.t2:hover {
+  color: #00b4d8;
+  font-size: 22px;
+  transition-delay: 0.4s;
+}
+
+.t3:hover {
+  color: #6a994e;
+  font-size: 22px;
+}
+
+.imagem img {
+  width: 250px;
+  border-radius: 20px;
+  margin-top: 15px;
+  transition: transform 0.5s;
+}
+
+.imagem img:hover {
+  transform: scale(1.2);
+}
+
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+}
